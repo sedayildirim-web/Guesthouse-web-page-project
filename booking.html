@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Hotel Reservation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="booking.css" />
+</head>
+
+<body>
+  <a href="index.html" class="home-link">Go to Home</a>
+
+<main class="form-wrapper">
+
+  <section class="reservation-card">
+
+    <header class="form-header">
+      
+      <h1>Hotel Reservation Form</h1>
+      <p>Please complete the form below</p>
+    </header>
+
+    <form name="booking" method="POST" netlify>
+
+      <div class="two-cols">
+        <label>
+          First Name
+          <input type="text" name="first-name" required>
+        </label>
+
+        <label>
+          Last Name
+          <input type="text" name="last-name" required>
+        </label>
+      </div>
+
+      <label>
+        Phone Number
+        <input type="tel" name="phone" placeholder="(000) 000 0000">
+      </label>
+
+      <div class="two-cols">
+        <label>
+          Arrival Date
+          <input type="date" name="arrival-date" required>
+        </label>
+
+        <label>
+          Arrival Time
+          <input type="time" name="arrival-time">
+        </label>
+      </div>
+
+      <div class="two-cols">
+        <label>
+          Departure Date
+          <input type="date" name="departure-date" required>
+        </label>
+
+        <label>
+          Departure Time
+          <input type="time" name="departure-time">
+        </label>
+      </div>
+
+      <div class="two-cols">
+        <label>
+          Number of Adults
+          <input type="number" name="adults" min="1">
+        </label>
+
+        <label>
+          Number of Kids
+          <input type="number" name="kids" min="0">
+        </label>
+      </div>
+
+      <div class="form-buttons">
+        <button type="submit">Submit</button>
+        <button type="reset" class="secondary">Reset</button>
+      </div>
+
+    </form>
+
+  </section>
+
+</main>
+
+</body>
+</html>

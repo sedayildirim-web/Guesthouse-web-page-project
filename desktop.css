@@ -1,0 +1,85 @@
+/* desktop.css */
+
+.hero {
+  padding: 6rem 1rem;
+}
+
+.hero-inner {
+  height: 835px;
+}
+
+.hero h1 {
+  font-size: 2.4rem;
+}
+
+.only-desktop {
+  display:list-item;
+}
+
+.experience {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+.experience-gallery li {
+  width: 280px;
+}
+
+.cta-content {
+  max-width: 400px;
+}
+
+/* desktop.css */
+.cta-content {
+  max-width: 500px;
+}
+
+.site-footer {
+  padding: 3rem;
+}
+
+.gallery-header {
+    padding-left: 120px;
+    font-size: 56px;
+  }
+
+  .gallery-hero-text {
+    font-size: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+.gallery {
+  display:flex;
+  gap: 32px;
+  padding: 0 64px 80px;
+}
+
+.gallery-item {
+  flex: 0 0 40%;
+}
+
+.info-nav {
+  display: flex;
+    align-items: center; /* 🔴 HİZALAMA BURADA */
+    gap: 1.5rem;
+}
+
+.info-nav a {
+  text-decoration: none;
+    color: #000;
+    font-size: 0.95rem;
+    line-height: 1; /* 🔴 DİKEY KAYMAYI ENGELLER */
+}
+
+.info-hero {
+  padding: 6rem 4rem;
+}
+
+/* CONTENT width */
+
+
+.mobile-menu {
+  display: none;
+}

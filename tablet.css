@@ -1,0 +1,137 @@
+/* tablet.css */
+
+
+.hero {
+  padding: 5rem 1rem;
+}
+
+.hero-inner {
+  height: 520px;
+}
+
+.hero h1 {
+  font-size: 2rem;
+}
+
+/* NAV */
+
+.nav {
+  padding: 1.25rem 1rem;
+}
+
+
+  .only-desktop {
+    display:list-item; 
+  }
+
+ .experience {
+  padding: 3rem;
+}
+
+.experience-gallery li {
+  width: 240px;
+}
+
+.cta-content {
+  max-width: 400px;
+}
+
+/* desktop.css */
+.cta-content {
+  max-width: 500px;
+}
+
+.site-footer {
+  padding: 3rem;
+}
+
+ .gallery-header {
+    padding: 48px 40px;
+    font-size: 40px;
+  }
+
+  .gallery-hero-text {
+    font-size: 18px;
+  }
+
+.gallery {
+  display:flex;
+  gap: 32px;
+  padding: 0 64px 80px;
+}
+
+.gallery-item {
+  flex: 0 0 40%;
+}
+
+
+/* Görseller sabit genişlikte */
+.gallery-item img {
+  width: 100%;
+  height: auto;
+}
+
+/* NAV visible */
+.info-nav {
+  display: flex;
+    align-items: center; /* 🔴 HİZALAMA BURADA */
+    gap: 1.5rem;
+}
+
+.info-nav a {
+  text-decoration: none;
+    color: #000;
+    font-size: 0.95rem;
+    line-height: 1; /* 🔴 DİKEY KAYMAYI ENGELLER */
+}
+
+/* Hover & focus */
+.info-nav a:hover,
+.info-nav a:focus {
+  opacity: 0.6;
+}
+
+/* HERO text position */
+.info-hero p {
+  max-width: 50%;
+}
+
+/* CONTENT side by side */
+ .info-content,
+  .info-block {
+    display: grid;
+    grid-template-columns: 240px 1fr;
+    column-gap: 3rem;
+    align-items: start;
+  }
+
+  .info-heading {
+    flex: 0 0 240px;
+  }
+
+  .info-content-right {
+    flex: 1;
+  }
+
+   .visit-item {
+    display: grid;
+    grid-template-columns: 240px 1fr;
+    column-gap: 3rem;
+    align-items: start;
+  }
+
+  .visit-option {
+    margin: 0;
+  }
+
+  hr {
+    grid-column: 1 / -1;
+  }
+
+  
+.mobile-menu {
+  display: none;
+}
+ 
+
+   
